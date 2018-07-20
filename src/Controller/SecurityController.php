@@ -61,7 +61,7 @@ class SecurityController extends AbstractController
      */
     public function index()
     {
-        return $this->render('user/index.html.twig', [
+        return $this->render('base.html.twig', [
         ]);
     }
 
